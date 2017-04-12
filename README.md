@@ -18,7 +18,7 @@ SOFTWARE REQUIRED:
 -OpenStack private cloud installation in Guest OS
 -Virtual instances with linux server OS (iso or qcow2 files) (We used Debian-jessie 64-bit server OS in .qcow2 file)
 
-EXPERIMENTAL SETUP AND IMPLIMENTATION:
+EXPERIMENTAL SETUP AND IMPLEMENTATION:
    In our lab we created a setup with above requirements and we installed OpenStack private cloud in Guest Machines. After loging into the OpenStack console we created 4 virtual instances (Debian machines) in which 3 virtual machines act as attackers and one virtual machine act as target machine. we installed DDoS attack generating tool namely Hping3 in those 3 attacking machines and we also installed Tcpdump, Tshark, Snmp,Snmpd and other required tools for monitoring and capturing DDoS attacks.
    
    Our project mainly concentrated on 5 popular DDoS attacks namely icmp flood, tcp-sync flood, tcp-sync-ack flood, udp flood and Land attack in flood mode. we have done these eack attacks for half an hour and collected the PCAP files and splitted them into 100Mb, 500Mb and 1Gb files so that the users can download and use according to their requirements. 
