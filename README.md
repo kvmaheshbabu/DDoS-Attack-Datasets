@@ -1,5 +1,5 @@
 # DDoS-Attack-Datasets
-Datasets collection of DDoS Attack done in virtual instance over OpenStack cloud with 100MB, 500MB and 1GB PCAP files
+Datasets collection of DDoS Attack done in virtual instance over OpenStack cloud with 100MB files
 
 For our project we used different Hardware and Software. The requirements are as follows:
 
@@ -21,7 +21,7 @@ SOFTWARE REQUIRED:
 EXPERIMENTAL SETUP AND IMPLEMENTATION:
    In our lab we created a setup with above requirements and we installed OpenStack private cloud in Guest Machines. After loging into the OpenStack console we created 4 virtual instances (Debian machines) in which 3 virtual machines act as attackers and one virtual machine act as target machine. we installed DDoS attack generating tool namely Hping3 in those 3 attacking machines and we also installed Tcpdump, Tshark, Snmp,Snmpd and other required tools for monitoring and capturing DDoS attacks.
    
-   Our project mainly concentrated on 5 popular DDoS attacks namely icmp flood, tcp-sync flood, tcp-sync-ack flood, udp flood and Land attack in flood mode. we have done these eack attacks for half an hour and collected the PCAP files and splitted them into 100Mb, 500Mb and 1Gb files so that the users can download and use according to their requirements. 
+   Our project mainly concentrated on 5 popular DDoS attacks namely icmp flood, tcp-sync flood, tcp-sync-ack flood, udp flood and Land attack in flood mode. we have done these eack attacks for half an hour and collected the PCAP files with 100Mb. so that the users can download and use according to their research. 
    
    we used WireShark to analyze these PCAP files to find the performance metrics of the target virtual machine. Users can use any monitoring or analysing tools to do further research on these DDoS attack datasets collected.
    
